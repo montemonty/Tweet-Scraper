@@ -23,7 +23,7 @@ def send_mail():
     server.ehlo()
     server.starttls()
     server.ehlo()
-    server.login('montanezj1997@gmail.com', 'fclifermaxrwomns')
+    server.login('montanezj1997@gmail.com', REDACTED)
     subject = 'KANYE TWEETED'
     body = 'check twitter https://twitter.com/kanyewest?lang=en'
     msg =f"Subject: {subject}\n\n{body}"
